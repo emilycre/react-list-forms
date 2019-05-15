@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Photos component renders a Photos 1`] = `
+<ul>
+  <li
+    key="/img1"
+  >
+    <Photo
+      photo="/img1"
+    />
+  </li>
+  <li
+    key="img2"
+  >
+    <Photo
+      photo="img2"
+    />
+  </li>
+  <li
+    key="img3"
+  >
+    <Photo
+      photo="img3"
+    />
+  </li>
+</ul>
+`;
