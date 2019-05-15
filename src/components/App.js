@@ -3,9 +3,9 @@ import Colors from './Colors';
 
 export default function App() {
   const colors = [
-    { name: 'red', rgb: { red: 255, green: 0, blue: 0 } },
-    { name: 'green', rgb: { red: 0, green: 255, blue: 0 } },
-    { name: 'blue', rgb: { red: 0, green: 0, blue: 255 } },
+    { name: 'Red', rgb: { red: 255, green: 0, blue: 0 } },
+    { name: 'Green', rgb: { red: 0, green: 255, blue: 0 } },
+    { name: 'Blue', rgb: { red: 0, green: 0, blue: 255 } },
   ];
   return <Colors colors={colors} />;
 }

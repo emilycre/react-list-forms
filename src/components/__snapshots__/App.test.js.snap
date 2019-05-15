@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component Renders an App 1`] = `
+<Colors
+  colors={
+    Array [
+      Object {
+        "name": "Red",
+        "rgb": Object {
+          "blue": 0,
+          "green": 0,
+          "red": 255,
+        },
+      },
+      Object {
+        "name": "Green",
+        "rgb": Object {
+          "blue": 0,
+          "green": 255,
+          "red": 0,
+        },
+      },
+      Object {
+        "name": "Blue",
+        "rgb": Object {
+          "blue": 255,
+          "green": 0,
+          "red": 0,
+        },
+      },
+    ]
+  }
+/>
+`;
