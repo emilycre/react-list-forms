@@ -12,6 +12,7 @@ exports[`Color Component Renders a Color 1`] = `
       style={
         Object {
           "backgroundColor": "#0000FF",
+          "borderRadius": "50%",
           "display": "inLine-block",
           "height": "0.8em",
           "width": "0.8em",
