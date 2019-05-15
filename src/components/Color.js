@@ -16,7 +16,8 @@ function Color({ name, rgb }) {
     display: 'inLine-block',
     backgroundColor: hex,
     width: '0.8em',
-    height: '0.8em'
+    height: '0.8em',
+    borderRadius: '50%'
   };
 
   return (
