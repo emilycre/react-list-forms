@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Photos component renders a Photos 1`] = `
+exports[`Photos component Renders a Photos 1`] = `
 <ul>
   <li
     key="/img1"
@@ -10,17 +10,17 @@ exports[`Photos component renders a Photos 1`] = `
     />
   </li>
   <li
-    key="img2"
+    key="/img2"
   >
     <Photo
-      photo="img2"
+      photo="/img2"
     />
   </li>
   <li
-    key="img3"
+    key="/img3"
   >
     <Photo
-      photo="img3"
+      photo="/img3"
     />
   </li>
 </ul>
