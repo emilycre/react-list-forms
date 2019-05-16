@@ -1,0 +1,23 @@
+.Sidebar {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 25vw;
+  height: 100vh;
+  padding: 1rem;
+
+  background-color: black;
+  color: gray;
+
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  a {
+    display: block;
+
+    color: gray;
+
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+}
