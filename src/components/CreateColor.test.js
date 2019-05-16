@@ -19,11 +19,9 @@ describe('CreateColor Component', () => {
     expect(wrapper.state('name')).toEqual('Blue');
   });
 
-  it('Cpdates color on change', () => {
+  it('Updates color on change', () => {
     const wrapper = shallow(<CreateColor addColor={jest.fn()} />);
 
-    // Second argument simulates event
-    // Since we use name and value we need to provide both
     wrapper.find('[name="color"]').at(0).simulate('change', {
       target: { name: 'color', value: '#FF0000' }
     });
@@ -35,8 +33,6 @@ describe('CreateColor Component', () => {
     const submit = jest.fn();
     const wrapper = shallow(<CreateColor addColor={submit} />);
 
-    // Second argument simulates event
-    // since call preventDefault we have to provide that function
     wrapper.find('form').at(0).simulate('submit', {
       preventDefault: jest.fn(),
     });
