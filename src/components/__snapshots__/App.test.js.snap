@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component Renders an App 1`] = `
+<section
+  className="App"
+>
+  <Sidebar>
+    <a
+      href="#"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      href="#"
+      onClick={[Function]}
+    >
+      About
+    </a>
+    <a
+      href="#"
+      onClick={[Function]}
+    >
+      Blog
+    </a>
+    <a
+      href="#"
+      onClick={[Function]}
+    >
+      Contact
+    </a>
+  </Sidebar>
+  <p>
+    What an impressive homepage.
+  </p>
+</section>
+`;
